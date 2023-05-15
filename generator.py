@@ -28,20 +28,6 @@ def is_a_number(num):
     else: return True
 
 
-# def correct_choose(choose):
-#     global characters_left
-#     choose = input("Enter correct value. Characters left: ",characters_left)
-#     if is_a_number(choose) is True:
-#         choose = int(choose)
-#     else:
-#         print("Wrong value!")
-#         sys.exit(0)
-#     if choose < characters_left and choose > 0:
-#         characters_left -= choose
-#         print("Characters left: ",characters_left)
-#     else:
-#         print("Wrong value!")
-#         sys.exit(0)
 
 
 password_length = input("How long password do you want? ")
